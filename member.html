@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/member-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--e button code-->
+    <title>CHE110</title>
+</head>
+
+<body>
+    <!--Header-->
+    <section class="sub-member-cover">
+        <nav>
+            <a href="index.html"><img src="images/99.jpg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="member.html">Members</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Members</h1>
+        <p>Earth's Finite Bounty: Navigating the Challenges of Resource Management</p>
+    </section>
+    <!-- About us comment -->
+    <section class="member-rock">
+        <div class="row">
+            <div class="member-col">
+                <img src="Images/Members/Amlan.jpeg" alt="">
+                <h3>Amlan Das</h3>
+                <p>Regestration number- "12318368" <br>Roll number- K23FAA25 <br>Section- K23FA
+                </p>
+                
+            </div>
+            <div class="member-col">
+                <img src="Images/Members/Bhanu.png" alt="">
+                <h3>Bhanu Pratap Singh</h3>
+                <p>Regestration number- "12318377" <br>Roll number- K23FAA26 <br>Section- K23FA
+                </p>
+                
+            </div>
+            <div class="member-col">
+                <img src="Images/Members/Hitesh.png" alt="">
+                <h3>Hitesh Choudhary</h3>
+                <p>Regestration number- "12318381" <br>Roll number- K23FAA27 <br>Section- K23FA 
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Fotter-->
+    <section class="fotter">
+        <h4>About Us</h4>
+        <p>This website is just for educaational information and made by the student of Lovely Pofessional
+            University, B.tech CSE, K23FA, CHE110 group 7
+            <br>Thank You <i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+        </p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-telegram"></i>
+        </div>
+        <p></p>
+    </section>
+
+    <!--Java Script function for Toogle menu-->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
